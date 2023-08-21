@@ -65,7 +65,7 @@ $number = 1;
         <div>
             <?php 
                 for ($number = 200; $number >= 0; $number -= 12) { ?>
-                    <p> <?php echo $number . ' ' . 'Enfin !!!!' ?> </p>
+                    <p> <?php echo $number?>'Enfin !!!!' </p>
                 <?php }
             ?>
         </div>
