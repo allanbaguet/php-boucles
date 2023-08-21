@@ -63,8 +63,8 @@ $number= 1;
     <main>
         <div>
             <?php 
-                for ($number = 1; $number < 15; $number++ ) { ?>
-                    <p> <?php echo 'On y arrive presque' ?> </p>
+                for ($number = 1; $number <= 15; $number++ ) { ?>
+                    <p> <?php echo $number . ' ' . 'On y arrive presque' ?> </p>
                 <?php }
             ?>
         </div>

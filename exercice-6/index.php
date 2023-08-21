@@ -65,7 +65,7 @@ $number= 20;
         <div>
             <?php
                 for ($number = 20 ; $number >= 0 ; $number--) { ?>
-                    <p> <?php echo 'C\'est preque bon' ?> </p>
+                    <p> <?php echo $number . ' ' . 'C\'est preque bon' ?> </p>
                 <?php }
                 ?>                
         </div>

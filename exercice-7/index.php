@@ -65,7 +65,7 @@ $number = 0;
             <?php 
             // $number += 15 permet d'incrémenter par 15 
                 for ($number = 1; $number <= 100; $number += 15) { ?>
-                    <p> <?php echo 'On tient le bon bout' ?> </p>
+                    <p> <?php echo $number . ' ' . 'On tient le bon bout' ?> </p>
                 <?php }
             ?>
         </div>
